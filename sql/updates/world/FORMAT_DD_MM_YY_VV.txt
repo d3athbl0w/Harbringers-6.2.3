@@ -1,0 +1,9 @@
+DD = Day (in two values, i.e 02)
+MM = Month (in two values, i.e 10)
+YY = Year (in two values, i.e 21)
+VV = Volume (in two values, i.e 01)
+
+Volume - If we have more than one SQL Fix in one single day, we have to give this an unique ID, we genuinly never pick a random two valued number.
+But an increasing number from its predecessor. I.E if highest SQL of the day is Version 08, then this will be named 09.
+
+Ask if this format is missunderstanding.

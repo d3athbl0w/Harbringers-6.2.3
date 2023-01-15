@@ -1,0 +1,1 @@
+Full DB Query for Hotfixes & World can be found on the github-repository.
