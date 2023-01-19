@@ -320,6 +320,7 @@ class BossAI : public ScriptedAI
         void EnterCombat(Unit* /*who*/) { _EnterCombat(); }
         void JustDied(Unit* /*killer*/) { _JustDied(); }
         void JustReachedHome() { _JustReachedHome(); }
+        void _DespawnAtEvade();
 
     protected:
         void _Reset();
